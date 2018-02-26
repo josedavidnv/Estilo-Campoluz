@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>Poner código JavaScript, HTML, CSS y PHP con el formato de campoluz</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Jose David - www.campoluzenoteca.com">
+  <meta name="description" content="Código que transforma el código HTML,CSS,Javascript y PHP a el estilo de campoluz" />
+ <script>
+if (window.location.protocol !== "https:")
+window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
+</script>
+  <link href="codigo/css/estilo.css" rel="stylesheet">
+  <!--<link rel="shortcut icon" href="//campoluzStyle/common/ico/favicon.ico">-->
+  <script src="codigo/lib/jquery/jquery.min.js"></script>
+  <script src="codigo/js/codigo.js"></script>
+  <!-- <script src="codigo/js/pruebas.js"></script> -->
+
+</head>
+
+<body>
+  <div class="container">
+    <h2><a href="https://www.campoluzenoteca.com/">Formato Campoluz</a></h2>
+    <form class="form-horizontal well">
+      <div class="control-group">
+        <textarea id="codigo" name="codigo" placeholder="Copia-pega tu código aqui">
+        <!-- Sample Source Code -->
+        <!DOCTYPE html>
+        <html>
+        <head>
+          <style>
+            .map{
+              font-weight: bold;
+              text-align:right;
+            }
+            h1{
+              color:red;
+            }
+          </style>
+          <script>
+            function saludar(){
+              alert("Hello World");
+            }
+          </script>
+          <?
+            function saludar(){
+              echo "Hello World";
+            }
+          ?>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Campoluz</title>
+        </head>
+
+        <body><h1>Hola Mundo</h1></body>
+
+        </html> </textarea>
+      </div>
+      <div class="control-group">
+        <div class="controls2">
+          <input type="button" id="formatear" class="boton_personalizado" value="Formatear">
+        </div>
+      </div>
+    </form>
+
+  </div>
+
+  <div class="platforms">
+    <a href="https://www.campoluzenoteca.com/">Campoluz</a>
+  </div>
+
+</body>
+
+</html>
+
+
+<!-- Sample Source Code -->
+       <!--  <!DOCTYPE html>
+        <html>
+        <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Campoluz</title>
+        </head>
+
+        <body><h1>Hola Mundo</h1></body>
+
+        </html> -->
